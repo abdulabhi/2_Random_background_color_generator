@@ -1,0 +1,62 @@
+
+
+/*style the sheet*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(53,103,182);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 0 25px 5px rgba(0,0,0,0.3);
+    width: 300px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #fff;
+
+}
+
+#rgb
+{
+    text-align: center;
+    font-weight: 900;
+    font-size: 23px;
+    color: #333;
+}
+
+.container button
+{
+    color: #fff;
+    background-color: #4058dd;
+    border: none;
+    outline: none;
+    font-size: 23px;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 14px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container button:hover
+{
+    box-shadow: 0 0 20px rgb(3, 47, 92);
+}
